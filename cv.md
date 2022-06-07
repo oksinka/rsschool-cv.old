@@ -26,7 +26,7 @@ return a * b
 
 
 ## Work experience
-#### First working example [My CV for GitHub] (https://github.com/oksinka/rsschool-cv/edit/gh-pages/cv.md)
+#### First working example [My CV for GitHub](https://oksinka.github.io/rsschool-cv/cv)
 
 
 ## Education
