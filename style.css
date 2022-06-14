@@ -1,0 +1,116 @@
+/* This is a start */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+      
+.header {
+    color: #3386FF;
+    border: 1px solid ;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+ 
+.nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 380;
+  line-height: 1.5;
+  color: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+    padding: 0 20px;
+} 
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 7px solid #3386FF;
+}
+  
+.section-profile-title {
+    font-size: 36px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #3386FF;
+}
+
+.section-profile-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #3386FF;
+}
+
+.link {
+    text-decoration: none;
+    color: #3386FF;
+    transition: color 0.5s;
+}
+  
+.link:hover {
+    color: #DFE75D;
+}
+
+.footer {
+    /* background-color: #829985; */
+    padding: 20px;  
+}
+  
+.footer {
+    color: #3386FF;
+    border: 1px solid ;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.rsschool {
+      width: 180px;
+      height: 52px;
+      background-image: url("https://rs.school/images/rs_school_js.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+}
